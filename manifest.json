@@ -1,0 +1,9 @@
+{
+  "name": "Mylocaldost Sustainability Explainer",
+  "short_name": "MLD Sustain",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#111213",
+  "theme_color": "#00BFA5",
+  "icons": []
+}

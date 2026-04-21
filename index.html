@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+  <title>Mylocaldost — Sustainability Explainer</title>
+  <meta name="description" content="How Mylocaldost measures sustainability across 7 parameters, 30 questions, and 5 elements." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- LOADING SCREEN -->
+  <div id="loadingScreen">
+    <div class="loader-bg"></div>
+    <div class="loader-content">
+      <div class="loader-logo">M Y L O C A L D O S T</div>
+      <div class="loader-ring">
+        <svg viewBox="0 0 100 100">
+          <circle cx="50" cy="50" r="42" class="ring-track"/>
+          <circle cx="50" cy="50" r="42" class="ring-fill"/>
+        </svg>
+        <div class="loader-icon">🌿</div>
+      </div>
+      <div class="loader-bar-wrap">
+        <div class="loader-bar"><div class="loader-bar-fill"></div></div>
+        <div class="loader-label">LOADING SUSTAINABILITY DATA</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- NAV -->
+  <nav class="nav" id="mainNav">
+    <div class="nav-inner">
+      <div class="nav-logo">M L D</div>
+      <div class="nav-right">
+        <div class="nav-pill"><span class="nav-dot"></span><span>Explainer</span></div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- MAIN CONTENT -->
+  <main class="main" id="mainApp">
+
+    <!-- HERO -->
+    <section class="hero-section anim-in">
+      <div class="topo-bg"></div>
+      <div class="hero-content">
+        <div class="section-label"><span>🌱</span><span>SUSTAINABILITY FRAMEWORK</span><span class="badge">V1.0</span></div>
+        <h1 class="hero-title">How We Measure<br/>Sustainability</h1>
+        <p class="hero-sub">Sustainability at Mylocaldost starts long before we even onboard a property. Over the last 7 years of finding truly sustainable places to stay, we realized we needed our own way to measure impact. So, we took the UN Sustainability Goals and tailored them specifically for India.</p>
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <div class="hero-stat-val" data-count="7">0</div>
+            <div class="hero-stat-label">Parameters</div>
+          </div>
+          <div class="hero-divider"></div>
+          <div class="hero-stat">
+            <div class="hero-stat-val" data-count="30">0</div>
+            <div class="hero-stat-label">Questions</div>
+          </div>
+          <div class="hero-divider"></div>
+          <div class="hero-stat">
+            <div class="hero-stat-val" data-count="5">0</div>
+            <div class="hero-stat-label">Elements</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7 PARAMETERS -->
+    <section class="params-section">
+      <div class="section-header anim-in">
+        <h2 class="section-title">The 7 Parameters</h2>
+        <span class="section-sub">What we measure</span>
+      </div>
+
+      <div class="param-card anim-in" style="--accent:#ff9999;">
+        <div class="param-weight">31%</div>
+        <div class="param-body">
+          <div class="param-name">Culture, Heritage & Community</div>
+          <div class="param-desc">We care deeply about the people. Are the staff locals? Is the food regional? Does the property share its revenue with the surrounding village? This is our biggest focus because true sustainability starts with the community.</div>
+        </div>
+        <div class="param-bar"><div class="param-bar-fill" style="width:0%;" data-width="31%"></div></div>
+      </div>
+
+      <div class="param-card anim-in" style="--accent:#66b3ff;">
+        <div class="param-weight">24%</div>
+        <div class="param-body">
+          <div class="param-name">Energy & Emissions</div>
+          <div class="param-desc">We look at power. Do they use solar energy? Are their appliances efficient? Are they tracking their energy use to keep it low?</div>
+        </div>
+        <div class="param-bar"><div class="param-bar-fill" style="width:0%;" data-width="24%"></div></div>
+      </div>
+
+      <div class="param-card anim-in" style="--accent:#99ff99;">
+        <div class="param-weight">14%</div>
+        <div class="param-body">
+          <div class="param-name">Access, Mobility & Local Economy</div>
+          <div class="param-desc">Can you reach the property by public transport? Are they buying their daily goods from nearby markets to support local shops?</div>
+        </div>
+        <div class="param-bar"><div class="param-bar-fill" style="width:0%;" data-width="14%"></div></div>
+      </div>
+
+      <div class="param-card anim-in" style="--accent:#ffcc99;">
+        <div class="param-weight">10%</div>
+        <div class="param-body">
+          <div class="param-name">Food, Fuel & Water</div>
+          <div class="param-desc">We check if they harvest rainwater, recycle greywater, and use clean cooking fuels instead of burning wood unsafely indoors.</div>
+        </div>
+        <div class="param-bar"><div class="param-bar-fill" style="width:0%;" data-width="10%"></div></div>
+      </div>
+
+      <div class="param-card anim-in" style="--accent:#c2c2f0;">
+        <div class="param-weight">10%</div>
+        <div class="param-body">
+          <div class="param-name">Waste & Circularity</div>
+          <div class="param-desc">Does everything go into one bin, or do they compost food waste and recycle?</div>
+        </div>
+        <div class="param-bar"><div class="param-bar-fill" style="width:0%;" data-width="10%"></div></div>
+      </div>
+
+      <div class="param-card anim-in" style="--accent:#ffb3e6;">
+        <div class="param-weight">10%</div>
+        <div class="param-body">
+          <div class="param-name">Landscape & Biodiversity</div>
+          <div class="param-desc">Is the property built around nature instead of cutting it down? Do they plant native trees and protect local wildlife?</div>
+        </div>
+        <div class="param-bar"><div class="param-bar-fill" style="width:0%;" data-width="10%"></div></div>
+      </div>
+
+      <div class="param-card anim-in" style="--accent:rgba(255,255,255,0.4);">
+        <div class="param-weight">✦</div>
+        <div class="param-body">
+          <div class="param-name">Highlights & Stories</div>
+          <div class="param-desc">We always leave room for the special things a property does that do not fit on a standard checklist like reviving a dying local craft or saving a specific forest patch.</div>
+        </div>
+      </div>
+
+      <!-- DONUT CHART: 7 Parameters = 100% -->
+      <div class="donut-wrapper anim-in">
+        <div class="donut-chart">
+          <svg viewBox="0 0 200 200" class="donut-svg">
+            <circle cx="100" cy="100" r="80" fill="none" stroke="rgba(255,255,255,0.03)" stroke-width="24"/>
+            <!-- Culture 31.1%: dash=156.3, gap=346.4, offset=0 -->
+            <circle cx="100" cy="100" r="80" fill="none" stroke="#ff9999" stroke-width="24" stroke-dasharray="156.3 346.4" stroke-dashoffset="0" class="donut-seg" style="--delay:0.1s;"/>
+            <!-- Energy 24.4%: dash=122.6, gap=380.0, offset=-156.3 -->
+            <circle cx="100" cy="100" r="80" fill="none" stroke="#66b3ff" stroke-width="24" stroke-dasharray="122.6 380.0" stroke-dashoffset="-156.3" class="donut-seg" style="--delay:0.2s;"/>
+            <!-- Access 14.4%: dash=72.4, gap=430.3, offset=-278.9 -->
+            <circle cx="100" cy="100" r="80" fill="none" stroke="#99ff99" stroke-width="24" stroke-dasharray="72.4 430.3" stroke-dashoffset="-278.9" class="donut-seg" style="--delay:0.3s;"/>
+            <!-- Food 10%: dash=50.3, gap=452.4, offset=-351.3 -->
+            <circle cx="100" cy="100" r="80" fill="none" stroke="#ffcc99" stroke-width="24" stroke-dasharray="50.3 452.4" stroke-dashoffset="-351.3" class="donut-seg" style="--delay:0.4s;"/>
+            <!-- Waste 10%: dash=50.3, gap=452.4, offset=-401.6 -->
+            <circle cx="100" cy="100" r="80" fill="none" stroke="#c2c2f0" stroke-width="24" stroke-dasharray="50.3 452.4" stroke-dashoffset="-401.6" class="donut-seg" style="--delay:0.5s;"/>
+            <!-- Landscape 10%: dash=50.3, gap=452.4, offset=-451.9 -->
+            <circle cx="100" cy="100" r="80" fill="none" stroke="#ffb3e6" stroke-width="24" stroke-dasharray="50.3 452.4" stroke-dashoffset="-451.9" class="donut-seg" style="--delay:0.6s;"/>
+          </svg>
+          <div class="donut-center">
+            <div class="donut-center-val">100%</div>
+            <div class="donut-center-label">Total Weight</div>
+          </div>
+        </div>
+        <div class="donut-legend">
+          <div class="donut-legend-item"><span class="donut-dot" style="background:#ff9999;"></span>Culture 31.1%</div>
+          <div class="donut-legend-item"><span class="donut-dot" style="background:#66b3ff;"></span>Energy 24.4%</div>
+          <div class="donut-legend-item"><span class="donut-dot" style="background:#99ff99;"></span>Access 14.4%</div>
+          <div class="donut-legend-item"><span class="donut-dot" style="background:#ffcc99;"></span>Food 10.0%</div>
+          <div class="donut-legend-item"><span class="donut-dot" style="background:#c2c2f0;"></span>Waste 10.0%</div>
+          <div class="donut-legend-item"><span class="donut-dot" style="background:#ffb3e6;"></span>Landscape 10.0%</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ASSESSMENT FLOW -->
+    <section class="flow-section">
+      <div class="section-header anim-in">
+        <h2 class="section-title">Assessment Flow</h2>
+        <span class="section-sub">How we score</span>
+      </div>
+      <div class="flow-pipeline anim-in">
+        <div class="flow-step">
+          <div class="flow-icon">📋</div>
+          <div class="flow-step-title">30 Questions</div>
+          <div class="flow-step-sub">Across 7 parameters</div>
+        </div>
+        <div class="flow-arrow">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </div>
+        <div class="flow-step">
+          <div class="flow-icon">🧮</div>
+          <div class="flow-step-title">Score Calc</div>
+          <div class="flow-step-sub">Out of 90 points</div>
+        </div>
+        <div class="flow-arrow">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </div>
+        <div class="flow-step">
+          <div class="flow-icon">⭐</div>
+          <div class="flow-step-title">Eco Rating</div>
+          <div class="flow-step-sub">5 Elements mapped</div>
+        </div>
+      </div>
+
+      <!-- Element Pills -->
+      <div class="elements-row anim-in">
+        <div class="element-pill" style="--el-color:#4FC3F7;">🌬️ Air</div>
+        <div class="element-pill" style="--el-color:#00897B;">💧 Water</div>
+        <div class="element-pill" style="--el-color:#FF8F00;">🔥 Fire</div>
+        <div class="element-pill" style="--el-color:#2E7D32;">🌿 Earth</div>
+        <div class="element-pill" style="--el-color:#D4A76A;">🧑‍🤝‍🧑 People</div>
+      </div>
+    </section>
+
+    <!-- SCORING METHODOLOGY -->
+    <section class="scoring-section">
+      <div class="section-header anim-in">
+        <h2 class="section-title">Scoring Methodology</h2>
+        <span class="section-sub">Our standards</span>
+      </div>
+      <div class="glass-card scoring-card anim-in">
+        <div class="scoring-threshold">
+          <div class="threshold-ring">
+            <svg viewBox="0 0 120 120">
+              <circle cx="60" cy="60" r="52" class="th-track"/>
+              <circle cx="60" cy="60" r="52" class="th-fill" stroke-dasharray="326.7" stroke-dashoffset="98"/>
+            </svg>
+            <div class="threshold-val">3.5</div>
+          </div>
+          <div class="threshold-info">
+            <div class="threshold-title">Minimum Onboarding Score</div>
+            <div class="threshold-desc">Properties must score at least 3.5 out of 5.0 on our assessment matrix to be listed on Mylocaldost.</div>
+          </div>
+        </div>
+      </div>
+      <div class="glass-card highlight-card anim-in">
+        <div class="highlight-icon">✨</div>
+        <div class="highlight-body">
+          <div class="highlight-title">Exceptions for Exceptional Properties</div>
+          <div class="highlight-text">We make minor relaxations for exceptional properties as long as they promise a truly sustainable guest experience. If a property has put immense effort into offering a farm-to-fork experience, advancing cultural heritage, achieving energy and water positivity, and generally giving back to the world more than our guests consume, we highlight their stories and welcome them.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TECHNICAL FRAMEWORK -->
+    <section class="tech-section">
+      <div class="section-header anim-in">
+        <h2 class="section-title">Technical Framework</h2>
+        <span class="section-sub">Under the hood</span>
+      </div>
+      <div class="glass-card tech-intro-card anim-in">
+        <p>The Mylocaldost Sustainability Assessment is a proprietary evaluation matrix designed to quantify the environmental and socio-economic footprint of our hospitality partners. Adapted from the UN Sustainable Development Goals (SDGs) and localized for the Indian context based on 7 years of operational data, the framework evaluates properties across 7 weighted parameters containing 30 precise indicators.</p>
+      </div>
+
+      <div class="tech-grid">
+        <div class="tech-card anim-in">
+          <div class="tech-card-header"><span class="tech-pct">31.1%</span><span class="tech-max">Max 28</span></div>
+          <div class="tech-card-title">Culture & Community</div>
+          <div class="tech-card-desc">Evaluates socio-economic integration. Metrics include local employment (>80%), local sourcing, vernacular architecture, and formal revenue sharing.</div>
+        </div>
+        <div class="tech-card anim-in">
+          <div class="tech-card-header"><span class="tech-pct">24.4%</span><span class="tech-max">Max 22</span></div>
+          <div class="tech-card-title">Energy & Emissions</div>
+          <div class="tech-card-desc">Quantifies energy efficiency. Indicators assess renewable infrastructure, smart management, and smokeless cookstoves.</div>
+        </div>
+        <div class="tech-card anim-in">
+          <div class="tech-card-header"><span class="tech-pct">14.4%</span><span class="tech-max">Max 13</span></div>
+          <div class="tech-card-title">Access & Economy</div>
+          <div class="tech-card-desc">Measures carbon intensity of transit. Higher scores for proximity to public transit and micro-local commerce integration.</div>
+        </div>
+        <div class="tech-card anim-in">
+          <div class="tech-card-header"><span class="tech-pct">10.0%</span><span class="tech-max">Max 9</span></div>
+          <div class="tech-card-title">Food, Fuel & Water</div>
+          <div class="tech-card-desc">Assesses circularity. Metrics include rainwater harvesting, greywater recycling, and clean cooking energy.</div>
+        </div>
+        <div class="tech-card anim-in">
+          <div class="tech-card-header"><span class="tech-pct">10.0%</span><span class="tech-max">Max 9</span></div>
+          <div class="tech-card-title">Waste & Circularity</div>
+          <div class="tech-card-desc">Tracks waste lifecycle. Evaluates source segregation, on-site composting, and material reuse programs.</div>
+        </div>
+        <div class="tech-card anim-in">
+          <div class="tech-card-header"><span class="tech-pct">10.0%</span><span class="tech-max">Max 9</span></div>
+          <div class="tech-card-title">Landscape & Biodiversity</div>
+          <div class="tech-card-desc">Measures ecological regeneration. Includes biophilic design, tree canopy thresholds, and active reforestation.</div>
+        </div>
+      </div>
+
+      <div class="glass-card algo-card anim-in">
+        <div class="algo-label"><span>⚙️</span><span>ALGORITHM</span></div>
+        <div class="algo-formula">element_rating = (raw_score / max_score) × 5.0</div>
+        <div class="algo-formula">eco_rating = mean(air, water, fire, earth, people)</div>
+        <p class="algo-desc">The 30 indicators generate a cumulative raw score out of 90. This data is algorithmically mapped to our 5 Element Framework to generate distinct ratings out of 5.0 for each element. The final "Eco Rating" is the mathematical mean of these five scores.</p>
+      </div>
+    </section>
+
+    <!-- CO2 CALCULATION -->
+    <section class="co2-section">
+      <div class="section-header anim-in">
+        <h2 class="section-title">CO2 Impact Calculation</h2>
+        <span class="section-sub">The science</span>
+      </div>
+
+      <div class="glass-card co2-intro anim-in">
+        <div class="co2-intro-icon">🌍</div>
+        <div>
+          <p class="co2-intro-lead">Beyond assessment scores, this is how we actually measure the carbon footprint of every stay on Mylocaldost.</p>
+          <p>For every guest booking, our model answers one question: "How much CO2 did this stay avoid (or produce), and how much does the property's land absorb?" It measures four operational areas and two land-based benefits.</p>
+        </div>
+      </div>
+
+      <div class="co2-areas anim-in">
+        <div class="co2-area-card">
+          <div class="co2-area-icon">⚡</div>
+          <div class="co2-area-name">Electricity</div>
+          <div class="co2-area-what">CO2 avoided by efficiency & renewables</div>
+        </div>
+        <div class="co2-area-card">
+          <div class="co2-area-icon">💧</div>
+          <div class="co2-area-name">Water</div>
+          <div class="co2-area-what">Credit from saving & reusing water</div>
+        </div>
+        <div class="co2-area-card">
+          <div class="co2-area-icon">♻️</div>
+          <div class="co2-area-name">Waste</div>
+          <div class="co2-area-what">CO2 avoided by diverting & composting</div>
+        </div>
+        <div class="co2-area-card">
+          <div class="co2-area-icon">🔥</div>
+          <div class="co2-area-name">Cooking</div>
+          <div class="co2-area-what">CO2 emitted by LPG or biomass</div>
+        </div>
+      </div>
+
+      <!-- Example Calculation -->
+      <div class="section-header anim-in" style="margin-top:24px;">
+        <h2 class="section-title">Example: 1 Night, 2 Guests</h2>
+        <span class="section-sub">Heal Farm case study</span>
+      </div>
+
+      <div class="calc-card anim-in">
+        <div class="calc-header">Electricity CO2 Avoided</div>
+        <div class="calc-steps">
+          <div class="calc-step"><span class="calc-step-num">1</span><span>Baseline: 4.0 kWh × 2 guests × 1 night = <b>8.0 kWh</b></span></div>
+          <div class="calc-step"><span class="calc-step-num">2</span><span>Efficiency savings (20%): 8.0 × 0.20 = <b>1.6 kWh saved</b></span></div>
+          <div class="calc-step"><span class="calc-step-num">3</span><span>Renewable credit (50% RE × 50% additionality): <b>1.6 kWh</b></span></div>
+          <div class="calc-step"><span class="calc-step-num">4</span><span>Total avoided: 0.73 × (1.6 + 1.6) = <b>2.34 kg CO2e</b></span></div>
+        </div>
+      </div>
+
+      <div class="calc-card anim-in">
+        <div class="calc-header">Waste CO2 Avoided</div>
+        <div class="calc-steps">
+          <div class="calc-step"><span class="calc-step-num">1</span><span>Diverted: 1.5 × 2.0 kg = <b>3.0 kg CO2e</b></span></div>
+          <div class="calc-step"><span class="calc-step-num">2</span><span>Recycled: 0.6 × 1.0 kg = <b>0.6 kg CO2e</b></span></div>
+          <div class="calc-step"><span class="calc-step-num">3</span><span>Composted: 0.1 × 1.0 kg = <b>0.1 kg CO2e</b></span></div>
+          <div class="calc-step"><span class="calc-step-num">4</span><span>Total: <b>3.7 kg CO2e avoided</b></span></div>
+        </div>
+      </div>
+
+      <div class="calc-card anim-in">
+        <div class="calc-header">Tree Sequestration (Land-Based)</div>
+        <div class="calc-steps">
+          <div class="calc-step"><span class="calc-step-num">1</span><span>12,000 trees × 21 kg CO2/year = <b>252,000 kg/year</b></span></div>
+          <div class="calc-step"><span class="calc-step-num">2</span><span>Per night: 252,000 ÷ 365 = <b>690.4 kg CO2e</b></span></div>
+          <div class="calc-step"><span class="calc-step-num">3</span><span>Per guest-night: 690.4 ÷ 2 = <b>345.2 kg CO2e</b></span></div>
+        </div>
+      </div>
+
+      <!-- Final KPIs -->
+      <div class="kpi-grid anim-in">
+        <div class="kpi-card">
+          <div class="kpi-val">6.1 <span>kg</span></div>
+          <div class="kpi-label">CO2e Avoided (Ops)</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-val">690 <span>kg</span></div>
+          <div class="kpi-label">Tree Sequestration / Night</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-val">345 <span>kg</span></div>
+          <div class="kpi-label">Per Guest-Night (Trees)</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-val">0.5 <span>kg</span></div>
+          <div class="kpi-label">Cooking Fuel Emitted</div>
+        </div>
+      </div>
+
+      <!-- Design Choices -->
+      <div class="section-header anim-in" style="margin-top:24px;">
+        <h2 class="section-title">Key Design Choices</h2>
+        <span class="section-sub">Safeguards</span>
+      </div>
+
+      <div class="safeguard-list">
+        <div class="safeguard-item anim-in">
+          <div class="safeguard-num">01</div>
+          <div class="safeguard-body">
+            <div class="safeguard-title">Caps on Efficiency Claims</div>
+            <div class="safeguard-desc">Energy efficiency is capped at 70% and water saving at 80% to prevent unrealistic claims.</div>
+          </div>
+        </div>
+        <div class="safeguard-item anim-in">
+          <div class="safeguard-num">02</div>
+          <div class="safeguard-body">
+            <div class="safeguard-title">RE Additionality at 50%</div>
+            <div class="safeguard-desc">Only half of renewable energy use is credited, reflecting the idea that some renewables would exist anyway.</div>
+          </div>
+        </div>
+        <div class="safeguard-item anim-in">
+          <div class="safeguard-num">03</div>
+          <div class="safeguard-body">
+            <div class="safeguard-title">Cooking is a Deduction</div>
+            <div class="safeguard-desc">Unlike other factors (which are avoided emissions), cooking fuel CO2 is subtracted from the total.</div>
+          </div>
+        </div>
+        <div class="safeguard-item anim-in">
+          <div class="safeguard-num">04</div>
+          <div class="safeguard-body">
+            <div class="safeguard-title">Trees Reported Separately</div>
+            <div class="safeguard-desc">Tree sequestration (~345 kg/guest-night) is so large compared to operational savings (~6 kg) that it is shown as a separate land-based metric.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GUEST IMPACT: 6 ELEMENT FLASHCARDS -->
+    <section class="impact-section">
+      <div class="section-header anim-in">
+        <h2 class="section-title">The Guest Experience</h2>
+        <span class="section-sub">What you see</span>
+      </div>
+
+      <div class="glass-card impact-intro anim-in">
+        <div class="impact-intro-icon">🌿</div>
+        <div>
+          <p class="impact-intro-lead">All of this science transforms into 6 simple cards your guests actually see.</p>
+          <p>After the assessment, scoring, and CO2 calculations are done, we distill everything into 6 interactive flashcards focused on what matters most: the wellbeing of the planet and the wellbeing of our guests. Tap any card to see the story behind the numbers.</p>
+        </div>
+      </div>
+
+      <div class="fc-grid">
+        <!-- Soul -->
+        <div class="fc-card anim-in" onclick="this.classList.toggle('flipped')" style="--fc-color:#E1BEE7;--fc-bg:rgba(225,190,231,0.08);">
+          <div class="fc-inner">
+            <div class="fc-front">
+              <span class="fc-score">4.5</span>
+              <span class="fc-emoji-big">✨</span>
+              <span class="fc-card-name">Soul</span>
+              <span class="fc-card-sub">Sound Healing & Life Coaching</span>
+              <span class="fc-tap">tap to flip</span>
+            </div>
+            <div class="fc-back">
+              <span class="fc-back-title">A stay that restores more than just energy.</span>
+              <span class="fc-back-body">Clean food and pristine air lay the foundation for rest, but we take your wellness further with dedicated life coaching and professional sound healing sessions.</span>
+              <span class="fc-back-hl">🧘 Book a private session and tap into deep, resonant healing.</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Air -->
+        <div class="fc-card anim-in" onclick="this.classList.toggle('flipped')" style="--fc-color:#81D4FA;--fc-bg:rgba(129,212,250,0.08);">
+          <div class="fc-inner">
+            <div class="fc-front">
+              <span class="fc-score">4.1</span>
+              <span class="fc-emoji-big">🌬️</span>
+              <span class="fc-card-name">Air</span>
+              <span class="fc-card-sub">AQI < 20 & PM 2.5 < 20</span>
+              <span class="fc-tap">tap to flip</span>
+            </div>
+            <div class="fc-back">
+              <span class="fc-back-title">Breathe air your body actually recognizes.</span>
+              <span class="fc-back-body">Pristine mountain air with AQI and PM 2.5 consistently below 20. A healing, high-altitude microclimate where you don't just relax, you thrive.</span>
+              <span class="fc-back-hl">🫁 Air this clean can extend lifespan by up to 20 years.</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Water -->
+        <div class="fc-card anim-in" onclick="this.classList.toggle('flipped')" style="--fc-color:#80CBC4;--fc-bg:rgba(128,203,196,0.08);">
+          <div class="fc-inner">
+            <div class="fc-front">
+              <span class="fc-score">4.4</span>
+              <span class="fc-emoji-big">💧</span>
+              <span class="fc-card-name">Water</span>
+              <span class="fc-card-sub">200K L Rainwater & Chemical-free</span>
+              <span class="fc-tap">tap to flip</span>
+            </div>
+            <div class="fc-back">
+              <span class="fc-back-title">Water from the sky and the mountains.</span>
+              <span class="fc-back-body">Sourced from a pure mountain stream, supplemented by 200,000 litres of harvested rainwater annually. Every drop is chemical and fluoride-free.</span>
+              <span class="fc-back-hl">💧 Zero fluoride. Zero chlorine. Just mountain-filtered water.</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Fire -->
+        <div class="fc-card anim-in" onclick="this.classList.toggle('flipped')" style="--fc-color:#FFAB91;--fc-bg:rgba(255,171,145,0.08);">
+          <div class="fc-inner">
+            <div class="fc-front">
+              <span class="fc-score">4.2</span>
+              <span class="fc-emoji-big">🔥</span>
+              <span class="fc-card-name">Fire</span>
+              <span class="fc-card-sub">Pahadi Chefs & Slow Chulha</span>
+              <span class="fc-tap">tap to flip</span>
+            </div>
+            <div class="fc-back">
+              <span class="fc-back-title">Slow fire cooking. Deep nourishment.</span>
+              <span class="fc-back-body">Resident chefs elevate traditional Pahadi recipes using classic chulha techniques. Every meal detoxifies your body while nourishing your soul.</span>
+              <span class="fc-back-hl">🍲 Every ingredient sourced within 15 km. No preservatives.</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Earth -->
+        <div class="fc-card anim-in" onclick="this.classList.toggle('flipped')" style="--fc-color:#A5D6A7;--fc-bg:rgba(165,214,167,0.08);">
+          <div class="fc-inner">
+            <div class="fc-front">
+              <span class="fc-score">4.6</span>
+              <span class="fc-emoji-big">🌿</span>
+              <span class="fc-card-name">Earth</span>
+              <span class="fc-card-sub">12,000 Trees & 690 kg CO2/night</span>
+              <span class="fc-tap">tap to flip</span>
+            </div>
+            <div class="fc-back">
+              <span class="fc-back-title">A forest that breathes for you.</span>
+              <span class="fc-back-body">A private forest of 12,000 trees sequesters 690 kg of CO2 every night. Your stay is extensively carbon negative.</span>
+              <span class="fc-back-hl">🌲 The forest absorbs more carbon than your entire trip, including the flight.</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- People -->
+        <div class="fc-card anim-in" onclick="this.classList.toggle('flipped')" style="--fc-color:#FFE082;--fc-bg:rgba(255,224,130,0.08);">
+          <div class="fc-inner">
+            <div class="fc-front">
+              <span class="fc-score">4.3</span>
+              <span class="fc-emoji-big">🧑‍🤝‍🧑</span>
+              <span class="fc-card-name">People</span>
+              <span class="fc-card-sub">100% Local Staff & Cooperative</span>
+              <span class="fc-tap">tap to flip</span>
+            </div>
+            <div class="fc-back">
+              <span class="fc-back-title">Rooted in local people and culture.</span>
+              <span class="fc-back-body">100% local staff with active partnerships with regional cooperatives. Your visit directly empowers the community that created this place.</span>
+              <span class="fc-back-hl">🤝 Every rupee you spend circulates back into the community.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CARBON OFFSET PROJECTS -->
+    <section class="offset-section">
+      <div class="section-header anim-in">
+        <h2 class="section-title">Going Beyond</h2>
+        <span class="section-sub">Carbon offsets</span>
+      </div>
+
+      <div class="glass-card offset-intro anim-in">
+        <div class="offset-intro-icon">🌱</div>
+        <div>
+          <p class="offset-lead">We do not stop at measurement. We invest in action.</p>
+          <p>We carefully select verified projects, both in and around our properties and throughout the country through the UN framework, and invest in these projects. We also offer guests activities and sessions in sustainable spaces, with sustainable experiences designed to further offset the emissions from their stay.</p>
+        </div>
+      </div>
+
+      <div class="offset-pillars anim-in">
+        <div class="offset-pillar">
+          <div class="offset-pillar-icon">🏔️</div>
+          <div class="offset-pillar-title">Local Projects</div>
+          <div class="offset-pillar-desc">Tree planting, watershed restoration, and clean energy initiatives in and around our partner properties.</div>
+        </div>
+        <div class="offset-pillar">
+          <div class="offset-pillar-icon">🇺🇳</div>
+          <div class="offset-pillar-title">UN-Verified</div>
+          <div class="offset-pillar-desc">Investments in certified carbon offset projects across India through the United Nations framework.</div>
+        </div>
+        <div class="offset-pillar">
+          <div class="offset-pillar-icon">🧘</div>
+          <div class="offset-pillar-title">Guest Activities</div>
+          <div class="offset-pillar-desc">Sound healing, forest bathing, farm walks, and cultural sessions that create impact while enriching your stay.</div>
+        </div>
+      </div>
+
+      <div class="glass-card offset-summary anim-in">
+        <div class="offset-summary-icon">♻️</div>
+        <div class="offset-summary-body">
+          <div class="offset-summary-title">The Complete Loop</div>
+          <div class="offset-summary-text">Assess ➔ Score ➔ Calculate ➔ Show Impact ➔ Offset ➔ Give Back. Every stay on Mylocaldost is designed to leave the world a little better than we found it.</div>
+        </div>
+      </div>
+    </section>
+
+    <div style="height:80px;"></div>
+  </main>
+
+  <!-- TAB BAR -->
+  <nav class="tab-bar" id="tabBar">
+    <button class="tab-btn active" onclick="scrollToSection('.hero-section')">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9L12 2L21 9V20C21 20.55 20.55 21 20 21H15V15H9V21H4C3.45 21 3 20.55 3 20V9Z"/></svg>
+      <span>Home</span>
+    </button>
+    <button class="tab-btn" onclick="scrollToSection('.params-section')">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="7" height="7" rx="1" stroke="currentColor" stroke-width="2"/><rect x="14" y="3" width="7" height="7" rx="1" stroke="currentColor" stroke-width="2"/><rect x="3" y="14" width="7" height="7" rx="1" stroke="currentColor" stroke-width="2"/><rect x="14" y="14" width="7" height="7" rx="1" stroke="currentColor" stroke-width="2"/></svg>
+      <span>Score</span>
+    </button>
+    <button class="tab-btn" onclick="scrollToSection('.co2-section')">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/><path d="M12 6v6l4 2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      <span>CO2</span>
+    </button>
+    <button class="tab-btn" onclick="scrollToSection('.impact-section')">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 2C6 2 3 7 3 12c0 6 9 10 9 10s9-4 9-10c0-5-3-10-9-10z" stroke="currentColor" stroke-width="2"/></svg>
+      <span>Impact</span>
+    </button>
+    <button class="tab-btn" onclick="scrollToSection('.offset-section')">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M17 8C8 10 5.9 16.17 3.82 21.34l1.89.66.95-2.3c.48.17.98.3 1.34.3C19 20 22 3 22 3c-1 2-8 2.25-13 3.25S2 11.5 2 13.5s1.75 3.75 1.75 3.75C7 8 17 8 17 8z" fill="currentColor"/></svg>
+      <span>Offset</span>
+    </button>
+  </nav>
+
+  <script src="app.js"></script>
+</body>
+</html>
