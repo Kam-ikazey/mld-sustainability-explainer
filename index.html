@@ -289,9 +289,10 @@
 
       <div class="glass-card algo-card anim-in">
         <div class="algo-label"><span>⚙️</span><span>ALGORITHM</span></div>
-        <div class="algo-formula">element_rating = (raw_score / max_score) × 5.0</div>
-        <div class="algo-formula">eco_rating = mean(air, water, fire, earth, people)</div>
-        <p class="algo-desc">The 30 indicators generate a cumulative raw score out of 90. This data is algorithmically mapped to our 5 Element Framework to generate distinct ratings out of 5.0 for each element. The final "Eco Rating" is the mathematical mean of these five scores.</p>
+        <div class="algo-formula">core_rating = (core_yes / 6) × 2.5</div>
+        <div class="algo-formula">detailed_rating = (detailed_raw / detailed_max) × 2.5</div>
+        <div class="algo-formula">eco_rating = core_rating + detailed_rating</div>
+        <p class="algo-desc">The assessment follows a two-tier model. The 6 core criteria questions contribute up to 2.5 points, and the 28 detailed questions contribute up to 2.5 points. These combine for a final Eco Rating out of 5.0, which is also mapped across our 5 elements.</p>
       </div>
     </section>
 
